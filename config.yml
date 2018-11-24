@@ -23,9 +23,9 @@ BroadcastedJoinMessage:
 BroadcastedLeaveMessage:
 #Enable broadcasted message?
   enabled: true
-#Broadcasted Message
+#Broadcasted message
   LeaveMsg: '&cPlayer &e%player% &cleft the game'
-#Configure Title Message(center of screen)
+#Configure title message(center of screen)
 TitleMessage:
 #Enable title message?
   enabled: true
@@ -33,3 +33,23 @@ TitleMessage:
   Title: '&a&lWelcome to the server!'
 #Subtitle text
   Subtitle: '&eHave fun'
+#ChatBlock configuration
+ChatBlock:
+#Disable chat for players
+  enabled: false
+#Use permission?
+  permission: true
+#permission: superhub.chat.write
+#No permission message
+  message: '&cYou have no permission to write!'
+#ChatFormatting
+ChatFormatting:
+#Enable chat gormatting?
+  enabled: true
+#Set player's prefix
+  ChatPrefix: '&f[&cAdmin&f] '
+#Set message color
+  ChatColor: '&b'
+#Set symbol between player and message
+  ChatDivision: ' &c➤ '
+#The end of configuration...
