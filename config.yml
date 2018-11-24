@@ -18,7 +18,7 @@ BroadcastedJoinMessage:
 #Enable broadcasted message?
   enabled: true
 #Broadcasted Message
-  JoinMsg: '&dPlayer &e%player% &djoined the game!'
+  JoinMsg: '&dPlayer &e%player% &djoined the game!(Message to server)'
 #Configure broadcasted leave message
 BroadcastedLeaveMessage:
 #Enable broadcasted message?
