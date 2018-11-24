@@ -1,5 +1,4 @@
 # Bug report
-
 Help this plugin improve
 -
 **Describe the bug**
