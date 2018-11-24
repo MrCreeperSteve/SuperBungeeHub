@@ -26,3 +26,4 @@ Teleport to spawn on join.
 Hook with PAPI.
 
 Note: If you are using Authme, you don't need to turn on teleport, so you can disable it in the config.
+-
