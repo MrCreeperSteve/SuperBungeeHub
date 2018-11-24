@@ -16,11 +16,6 @@ public class LeaveListener implements Listener {
 	}
 	@EventHandler
 	public void PlayerLeave(PlayerQuitEvent e) {
-		if (plugin.getConfig().getBoolean("BroadcastedLeaveMessage.enabled") == true) {
-		e.setQuitMessage(ChatUtils.chat(plugin.getConfig().getString("BroadcastedLeaveMessage.LeaveMsg").replaceAll("%player%", e.getPlayer().getDisplayName())));
-		} else {
-			e.setQuitMessage(null);
+		e.setQuitMessage(plugin.getConfig().getBoolean("BroadcastedLeaveMessage.enabled") ? ChatUtils.chat(plugin.getConfig().getString("BroadcastedLeaveMessage.LeaveMsg").replaceAll("%player%", e.getPlayer().getDisplayName())) : null);
 		}
 	}
-
-}

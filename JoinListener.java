@@ -19,6 +19,7 @@ public class JoinListener implements Listener {
 		this.plugin = plugin;
 		Bukkit.getPluginManager().registerEvents(this, plugin);
 	}
+	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void JoinEvent(PlayerJoinEvent e) {
 		Player player = e.getPlayer();
