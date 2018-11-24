@@ -19,6 +19,8 @@ Use placeholder %player%. (since 1.2)
 
 Configure/format chat messages. (since 1.2.1)
 
+Hook with AuthMe.
+
 TO-DO list:
 -
 Hook with PAPI.
