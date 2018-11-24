@@ -1,6 +1,8 @@
 package me.NukerFall.SuperHub;
 
 import org.bukkit.plugin.java.JavaPlugin;
+
+import me.NukerFall.SuperHub.Listeners.ChatListener;
 import me.NukerFall.SuperHub.Listeners.JoinListener;
 import me.NukerFall.SuperHub.Listeners.LeaveListener;
 import me.NukerFall.SuperHub.Listeners.ServPingListener;
@@ -11,6 +13,7 @@ public class Main extends JavaPlugin {
 		new JoinListener(this);
 		new ServPingListener(this);
 		new LeaveListener(this);
+		new ChatListener(this);
 		saveDefaultConfig();
 	}
 	public void onDisable() {
