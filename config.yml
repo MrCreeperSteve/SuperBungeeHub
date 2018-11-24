@@ -18,7 +18,7 @@ BroadcastedJoinMessage:
 #Enable broadcasted message?
   enabled: true
 #Broadcasted Message
-  JoinMsg: '&dPlayer &e%player% &djoined the game!(Message to server)'
+  JoinMsg: '&dPlayer &e%player% &djoined the game!'
 #Configure broadcasted leave message
 BroadcastedLeaveMessage:
 #Enable broadcasted message?
@@ -52,4 +52,23 @@ ChatFormatting:
   ChatColor: '&b'
 #Set symbol between player and message
   ChatDivision: ' &c➤ '
+#Hook to AuthMe
+AuthMe:
+#Enable hook?
+  enabled: false
+#Information text configuration
+#Send player message
+  Message:
+#Enable message?
+    enabled: false
+#Configure message text
+    Message: '&dSuccessful login!'
+#Send player еitle
+  Title:
+#Enable title?
+    enabled: true
+#Title text
+    Title: '&cSuccessful login!'
+#Subtitle text
+    Subtitle: '&eEnjoy!'
 #The end of configuration...
