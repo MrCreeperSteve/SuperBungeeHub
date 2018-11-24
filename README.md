@@ -1,8 +1,8 @@
 # SuperHub
 Lightweight and simpe multifunctional hub plugin.
--
+
 Last version: 1.2.1 Minecraft Version: 1.13
--
+
 Current features:
 -
 Configure/disable broadcasted join and leave messages.
