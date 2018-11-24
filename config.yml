@@ -1,0 +1,65 @@
+#Welcome message configuration
+WelcomeMsg:
+#Enable messages?
+  enabled: true
+#Specify messages
+  MessageList:
+  - '&f[&c*&f] &bWelcome &e%player% &bto server!'
+  - '&dGood luck!'
+#Server MoTD configuration
+Server_MoTD:
+#Enable MoTD change in server list?
+  enabled: true
+#Two lines of text in server list
+  Line-1: '&6Colourful server...'
+  Line-2: '&dEnjoy!'
+#Configure broadcasted join message
+BroadcastedJoinMessage:
+#Enable broadcasted message?
+  enabled: true
+#Broadcasted Message
+  JoinMsg: '&dPlayer &e%player% &djoined the game!'
+#Configure broadcasted leave message
+BroadcastedLeaveMessage:
+#Enable broadcasted message?
+  enabled: true
+#Broadcasted message
+  LeaveMsg: '&cPlayer &e%player% &cleft the game'
+#Configure title message(center of screen)
+TitleMessage:
+#Enable title message?
+  enabled: true
+#Title text
+  Title: '&a&lWelcome to the server!'
+#Subtitle text
+  Subtitle: '&eHave fun'
+#ChatFormatting
+ChatFormatting:
+#Enable chat gormatting?
+  enabled: true
+#Set player's prefix
+  ChatPrefix: '&f[&cAdmin&f] '
+#Set message color
+  ChatColor: '&b'
+#Set symbol between player and message
+  ChatDivision: ' &c➤ '
+#Hook to AuthMe
+AuthMe:
+#Enable hook?
+  enabled: false
+#Information text configuration
+#Send player message
+  Message:
+#Enable message?
+    enabled: false
+#Configure message text
+    Message: '&dSuccessful login!'
+#Send player еitle
+  Title:
+#Enable title?
+    enabled: true
+#Title text
+    Title: '&cSuccessful login!'
+#Subtitle text
+    Subtitle: '&eEnjoy!'
+#The end of configuration...
