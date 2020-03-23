@@ -1,23 +1,23 @@
 package me.NukerFall.SuperBungeeHub.Listeners;
 
 import java.util.List;
-
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-
 import me.NukerFall.SuperBungeeHub.Main;
 import me.NukerFall.SuperBungeeHub.Utils.ChatUtils;
 
 public class JoinListener implements Listener {
+	
 	private Main plugin;
 	public JoinListener(Main plugin) {
 		this.plugin = plugin;
 		Bukkit.getPluginManager().registerEvents(this, plugin);
 	}
+	
 	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void JoinEvent(PlayerJoinEvent e) {
@@ -39,9 +39,9 @@ public class JoinListener implements Listener {
 		}
 		return;
 		}
-        for(Player p : Bukkit.getOnlinePlayers()) {
+        for (Player p : Bukkit.getOnlinePlayers()) {
             p.hidePlayer(player);
             player.hidePlayer(p);
-            }
         }
-	}
+    }
+}
