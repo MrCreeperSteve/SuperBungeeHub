@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Nuker/Desktop/Additional/Minecraft/BuildTools/spigot-1.15.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Nuker/Desktop/Additional/Server/Hub/plugins/AuthMe.jar"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
