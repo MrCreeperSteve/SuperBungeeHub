@@ -2,7 +2,6 @@ package me.NukerFall.SuperBungeeHub;
 
 
 import org.bukkit.plugin.java.JavaPlugin;
-
 import me.NukerFall.SuperBungeeHub.Listeners.AuthMeLogin;
 import me.NukerFall.SuperBungeeHub.Listeners.ChatListener;
 import me.NukerFall.SuperBungeeHub.Listeners.JoinListener;
@@ -10,6 +9,7 @@ import me.NukerFall.SuperBungeeHub.Listeners.LeaveListener;
 import me.NukerFall.SuperBungeeHub.Listeners.ServPingListener;
 
 public class Main extends JavaPlugin {
+	
 	public void onEnable() {
 		getServer().getConsoleSender().sendMessage("SuperBungeeHub successfully enabled!");
 		new JoinListener(this);
@@ -23,6 +23,7 @@ public class Main extends JavaPlugin {
 		}
 		saveDefaultConfig();
 	}
+	
 	public void onDisable() {
 		getServer().getConsoleSender().sendMessage("&7SuperBungeeHub Disabled");
 		saveConfig();
