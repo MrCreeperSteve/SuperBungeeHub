@@ -1,0 +1,6 @@
+name: SuperBungeeHub
+version: 1.3
+author: NukerFall
+main: me.NukerFall.SuperBungeeHub.Main
+description: Multifunctional hub plugin
+softdepend: [AuthMe]
