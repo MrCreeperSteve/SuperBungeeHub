@@ -1,7 +1,7 @@
 # SuperBungeeHub
 Lightweight and simpe multifunctional hub plugin.
 
-Last version: 1.2.1 Minecraft Version: 1.13
+Last version: 1.4 Minecraft Versions: 1.13-1.15.2
 
 Current features:
 -
